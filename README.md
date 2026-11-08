@@ -7,7 +7,7 @@ Statische Website, keine Abhängigkeiten, kein Build. Hosting: Netlify. Domain: 
 | Datei | Zweck |
 |---|---|
 | `index.html` | Startseite (Onepager) |
-| `impressum.html` | Impressum & Datenschutz – **Name/Adresse eintragen** (Platzhalter `[…]`) |
+| `impressum.html` | Impressum & Datenschutz |
 | `danke.html` | Bestätigung nach Formular |
 | `style.css` | Design |
 | `_redirects` | Alte Wix-URLs → neue Seite, www erzwingen |
@@ -48,7 +48,6 @@ SSL stellt Netlify nach der DNS-Umstellung automatisch aus (Let's Encrypt), daue
 
 ## Vor dem Livegang
 
-- [ ] Impressum: Name und Adresse eintragen
 
 - [ ] Fakten Winter/Sommer mit belalp.ch abgleichen (Saisondaten, Hexenabfahrt-Datum)
 - [ ] Formular einmal testen (Netlify → Forms)
