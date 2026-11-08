@@ -10,6 +10,7 @@ Statische Website, keine Abhängigkeiten, kein Build. Hosting: Netlify. Domain: 
 | `impressum.html` | Impressum & Datenschutz |
 | `danke.html` | Bestätigung nach Formular |
 | `style.css` | Design |
+| `script.js` | Interaktionen: Scroll-Animationen, Schnee, Lightbox, Mobile-Menü |
 | `_redirects` | Alte Wix-URLs → neue Seite, www erzwingen |
 | `favicon.svg` | Browser-Icon |
 | `images/` | Fotos (siehe unten) |
