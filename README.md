@@ -13,7 +13,7 @@ Statische Website, keine Abhängigkeiten, kein Build. Hosting: Netlify. Domain: 
 | `_redirects` | Alte Wix-URLs → neue Seite, www erzwingen |
 | `favicon.svg` | Browser-Icon |
 | `images/` | Fotos (siehe unten) |
-| `merkblatt.pdf` | Gäste-Merkblatt – aus Wix sichern und hier ablegen |
+| `merkblatt.html` | Merkblatt für Gäste (Anreise, Schlüssel, WLAN, Ausstattung) |
 
 ## Fotos
 
@@ -49,7 +49,7 @@ SSL stellt Netlify nach der DNS-Umstellung automatisch aus (Let's Encrypt), daue
 ## Vor dem Livegang
 
 - [ ] Impressum: Name und Adresse eintragen
-- [ ] `merkblatt.pdf` ablegen
+
 - [ ] Fakten Winter/Sommer mit belalp.ch abgleichen (Saisondaten, Hexenabfahrt-Datum)
 - [ ] Formular einmal testen (Netlify → Forms)
 - [ ] Nach DNS-Umstellung: Wix-Abo kündigen

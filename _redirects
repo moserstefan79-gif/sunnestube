@@ -1,7 +1,7 @@
 # Alte Wix-URLs auf die neue Seite umleiten (301 = dauerhaft)
 /angebote          /#gaeste      301
 /buchungsanfrage   /#kontakt     301
-/merkblatt         /merkblatt.pdf 301
+/merkblatt         /merkblatt.html 301
 /impressum         /impressum.html 301
 /blog              /             301
 /blog/*            /             301
