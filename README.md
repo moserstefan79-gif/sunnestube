@@ -19,9 +19,9 @@ Statische Website, keine Abhängigkeiten, kein Build. Hosting: Netlify. Domain: 
 ## Fotos
 
 Alle Fotos liegen web-optimiert (max. 2000 px, JPG) in `images/` und sind eingebaut:
-Hero `hero.jpg` (Blatten bei Nacht), Galerie (Esszimmer, Terrasse, Schlafzimmer, Küche, Bad, Zimmer), `grundriss.png`,
-`residence-panorama.jpg`, `blatten-winter.jpg` (Region), `familie.jpg`.
-Nicht verwendet, aber vorhanden: `bad-wanne.jpg`, `schlafzimmer-detail.jpg`, `essbereich-detail.jpg`, `esszimmer-fenster.jpg`, `garderobe.jpg`.
+Hero `hero.jpg` (Belalp über dem Nebelmeer), `blatten-nacht.jpg` (Region), Galerie (Esszimmer, Terrasse, Schlafzimmer, Küche, Bad, Zimmer), `grundriss.png`,
+`residence-panorama.jpg`, `familie.jpg`.
+Nicht verwendet, aber vorhanden: `blatten-winter.jpg`, `bad-wanne.jpg`, `schlafzimmer-detail.jpg`, `essbereich-detail.jpg`, `esszimmer-fenster.jpg`, `garderobe.jpg`.
 
 Foto tauschen: Datei in `images/` ersetzen oder in `index.html` den `src` anpassen. `og:image` im `<head>` zeigt auf `images/hero.jpg` (Vorschaubild bei WhatsApp/Social).
 
