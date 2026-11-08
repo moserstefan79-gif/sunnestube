@@ -5,6 +5,3 @@
 /impressum         /impressum.html 301
 /blog              /             301
 /blog/*            /             301
-
-# www erzwingen (Netlify macht das zusätzlich über die Domain-Einstellungen)
-https://sunnestube.ch/*  https://www.sunnestube.ch/:splat  301!
