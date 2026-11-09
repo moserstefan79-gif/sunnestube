@@ -25,7 +25,7 @@
   }
 
   /* Elemente beim Scrollen einblenden */
-  const targets = document.querySelectorAll('.section, .facts, .card, .feature, .season, .gallery img, .info');
+  const targets = document.querySelectorAll('.section, .comfort > div, .season, .gallery img, .info');
   targets.forEach(el => el.classList.add('reveal'));
   if (!reduce && 'IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
@@ -38,28 +38,8 @@
     targets.forEach(el => el.classList.add('is-visible'));
   }
 
-  /* Schnee im Hero */
-  const hero = document.querySelector('.hero');
-  if (hero && !reduce) {
-    hero.querySelectorAll('.snow').forEach(s => s.remove());
-    const layer = document.createElement('div');
-    layer.className = 'snow-layer';
-    layer.setAttribute('aria-hidden', 'true');
-    const n = window.innerWidth < 700 ? 28 : 55;
-    for (let i = 0; i < n; i++) {
-      const f = document.createElement('span');
-      const size = 2 + Math.random() * 5;
-      f.style.cssText =
-        `left:${Math.random() * 100}%;width:${size}px;height:${size}px;` +
-        `animation-duration:${9 + Math.random() * 12}s;animation-delay:-${Math.random() * 20}s;` +
-        `opacity:${0.35 + Math.random() * 0.55};--drift:${(Math.random() * 60 - 30).toFixed(0)}px`;
-      layer.appendChild(f);
-    }
-    hero.insertBefore(layer, hero.querySelector('.hero-shade'));
-  }
-
   /* Lightbox für die Galerie */
-  const imgs = Array.from(document.querySelectorAll('.gallery img, .two-col > img, .panel-dark img'));
+  const imgs = Array.from(document.querySelectorAll('.gallery img, .tilt img, .region img, .hero-photo img, .plan img'));
   if (imgs.length) {
     const lb = document.createElement('div');
     lb.className = 'lightbox';
